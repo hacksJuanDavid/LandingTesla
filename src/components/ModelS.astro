@@ -1,0 +1,28 @@
+---
+import Section from "./Section.astro";
+---
+
+<Section
+  title="ModelS"
+  subtitle="Order Online for Touchless Delivery"
+  color="black"
+  id="model-s"
+>
+  <img
+    slot="background"
+    alt="Model S"
+    class="h-full w-full object-cover object-center"
+    src="/images/model-s.avif"
+    id="bg-image-models"
+  />
+
+  <div slot="footer">
+    <a href="#" class="border-[3px] border-white bg-white/5 backdrop-blur-sm text-sm rounded font-medium text-white px-12 py-2 inline-block hover:bg-white hover:text-black transition-colors"
+      
+      >Custom Order</a
+    >
+    <a href="#" class="border-[3px] border-black bg-white/5 backdrop-blur-sm text-sm rounded font-medium text-black px-12 py-2 inline-block hover:bg-black hover:text-white transition-colors"
+      >Existing Inventory</a
+    >
+  </div>
+</Section>
